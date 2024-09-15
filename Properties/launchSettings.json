@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "调试ClassIsland插件": {
+      "commandName": "Executable",
+      "executablePath": "D:\\MOUZIE\\DEV\\ClassIsland\\ClassIsland\\bin\\Debug\\net8.0-windows\\ClassIsland.exe",
+      "commandLineArgs": "-epp D:\\MOUZIE\\DEV\\Plugins\\Plugin000\\bin\\Debug\\net8.0-windows",
+      "workingDirectory": "D:\\MOUZIE\\DEV\\ClassIsland\\ClassIsland\\bin\\Debug\\net8.0-windows"
+    }
+  }
+}

@@ -10,7 +10,26 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="ClassIsland.Core" Version="1.5.0" />
 		<PackageReference Include="ClassIsland.PluginSdk" Version="1.5.0" ExcludeAssets="runtime" />
+		<PackageReference Include="ClassIsland.Shared" Version="1.5.0" />
+		<PackageReference Include="ClassIsland.Shared.IPC" Version="1.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Floder Include="Models\"/>
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <None Update="icon.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="manifest.yml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="README.md">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 </Project>
