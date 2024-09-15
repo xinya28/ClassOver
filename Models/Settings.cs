@@ -1,7 +1,7 @@
 ﻿
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Plugin000.Models;
+namespace ClassOver.Models;
 
 public class Settings : ObservableRecipient
 {

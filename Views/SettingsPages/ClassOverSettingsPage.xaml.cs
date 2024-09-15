@@ -15,11 +15,11 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClassIsland.Core.Attributes;
 using MaterialDesignThemes.Wpf;
-using Plugin000;
+using ClassOver;
 
-namespace Plugin000.Views.SettingsPages;
+namespace ClassOver.Views.SettingsPages;
 
-[SettingsPageInfo("000.ClassOverSettingsPage", "淦!下课! 的设置页面", PackIconKind.CogOutline, PackIconKind.Cog)]
+[SettingsPageInfo("ClassOver.SettingsPage", "淦!下课!", PackIconKind.CogOutline, PackIconKind.Cog)]
 public partial class ClassOverSettingsPage : SettingsPageBase
 {
     public Plugin Plugin { get; }

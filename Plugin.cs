@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Plugin000.Models;
-using Plugin000.Views.SettingsPages;
+using ClassOver.Models;
+using ClassOver.Views.SettingsPages;
 using ClassIsland.Core.Abstractions;
 using ClassIsland.Core.Attributes;
 using ClassIsland.Core.Controls.CommonDialog;
@@ -16,7 +16,7 @@ using ClassIsland.Core;
 using ClassIsland.Shared.Helpers;
 using System.IO;
 
-namespace Plugin000;
+namespace ClassOver;
 
 [PluginEntrance]
 public class Plugin : PluginBase
@@ -31,6 +31,5 @@ public class Plugin : PluginBase
             ConfigureFileHelper.SaveConfig<Settings>(Path.Combine(PluginConfigFolder, "Settings.json"), Settings);
         };
         services.AddSettingsPage<ClassOverSettingsPage>();
-        CommonDialog.ShowInfo("Hello world!");
     }
 }
