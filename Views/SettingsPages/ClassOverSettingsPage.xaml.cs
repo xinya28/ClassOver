@@ -22,7 +22,7 @@ namespace Plugin000.Views.SettingsPages;
 /// <summary>
 /// ExampleSettingsPage.xaml 的交互逻辑
 /// </summary>
-[SettingsPageInfo("000.ClassOverSettingsPage", "示例设置页面000", PackIconKind.CogOutline, PackIconKind.Cog)]
+[SettingsPageInfo("000.ClassOverSettingsPage", "淦!下课! 的设置页面", PackIconKind.CogOutline, PackIconKind.Cog)]
 public partial class ClassOverSettingsPage : SettingsPageBase
 {
     public Plugin Plugin { get; }
