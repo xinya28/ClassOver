@@ -2,7 +2,7 @@ id: Fuck.ClassOver	# 插件 id
 name: 淦!下课!	# 插件名称
 apiVersion: 1.4.2.0	# 插件面向的 ClassIsland 版本
 description: 下课时自动关闭前台窗口	# 插件描述
-entranceAssembly: "Plugin000.dll"	# 插件入口程序集
+entranceAssembly: "ClassOver.dll"	# 插件入口程序集
 url: https://github.com/xinya28/ClassOver	# 插件 Url
 author: xinya28	# 插件作者
 version: 0.0.0.1	# 插件版本

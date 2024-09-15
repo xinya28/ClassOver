@@ -5,6 +5,6 @@
 ### 纯屎山
 ### 插件 id: Fuck.ClassOver
 ### 插件面向的 ClassIsland 版本: 1.4.2.0+
-### 插件入口程序集: Plugin000.dll
+### 插件入口程序集: ClassOver.dll
 ### 插件作者: xinya28
 ### 插件版本: 0.0.0.1
