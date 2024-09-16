@@ -10,6 +10,14 @@ on:
     paths:
     - 'plugin.cs'
     - 'ClassOver.csproj'
+    - '/Models'
+    - '/Themes'
+    - '/Views'
+    - 'plugin000.sln'
+    - 'manifest.yml'
+    - 'icon.png'
+    - 'AssemblyInfo.cs'
+    
 
 jobs:
   build:
