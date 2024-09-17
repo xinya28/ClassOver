@@ -21,7 +21,7 @@ namespace ClassOver;
 [PluginEntrance]
 public class Plugin : PluginBase
 {
-    public Settings Settings { get; set; } = new();
+    public Settings Settings { get; set } = new();
 
     public override void Initialize(HostBuilderContext context, IServiceCollection services)
     {
